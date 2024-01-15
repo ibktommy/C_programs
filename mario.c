@@ -2,9 +2,19 @@
 
 int main(void)
 {
-  for (int i = 0; i < 4; i++)
+  // USING A DO-WHILE LOOP - to get the size of a grid and print the grid
+  
+  const int n;
+  do 
   {
-    for (int j = 0; j < 4; j++)
+    printf("Input number: ");
+    scanf("%d", &n);
+  }
+  while (n < 1);
+
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < n; j++)
     {
       printf("#");
     }
