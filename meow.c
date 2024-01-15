@@ -31,9 +31,10 @@ int main(void)
   */
 
   // USE BOOL FOR SIMPLE INFINITY LOOP
-  
+  /*
   while (true)
   {
     printf("meow!\n");
   }
+  */
 }
