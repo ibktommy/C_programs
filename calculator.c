@@ -16,5 +16,5 @@ int main(void)
   float sum = (float) num1 / (float) num2;
 
   // Print SUM
-  printf("%f", sum);
+  printf("%.2f", sum);
 }
