@@ -10,9 +10,9 @@ int main(void) {
   // Get Input
   scanf("%c", &c);
 
-  if (c == 'y') {
+  if (c == 'y' || c == 'Y') {
     printf("Agreed!");
-  } else if (c == 'n') {
+  } else if (c == 'n' || c == 'N') {
     printf("Declined!");
   } else {
     printf("Invalid Input");
