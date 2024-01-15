@@ -13,8 +13,8 @@ int main(void)
   scanf("%i", &num2);
 
   // Initialize SUM and TYPE CASTING
-  float sum = (float) num1 / (float) num2;
+  double sum = (double) num1 / (double) num2;
 
   // Print SUM
-  printf("%.2f", sum);
+  printf("%.3f", sum);
 }
