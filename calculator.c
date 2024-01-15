@@ -12,9 +12,9 @@ int main(void)
   printf("Input second number: ");
   scanf("%i", &num2);
 
-  // Initialize SUM
-  int sum = num1 / num2;
+  // Initialize SUM and TYPE CASTING
+  float sum = (float) num1 / (float) num2;
 
   // Print SUM
-  printf("%i", sum);
+  printf("%f", sum);
 }
