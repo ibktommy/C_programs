@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
@@ -28,4 +29,11 @@ int main(void)
       printf("meow!");
     }
   */
+
+  // USE BOOL FOR SIMPLE INFINITY LOOP
+  
+  while (true)
+  {
+    printf("meow!\n");
+  }
 }
