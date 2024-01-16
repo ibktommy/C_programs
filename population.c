@@ -24,5 +24,8 @@ int main(void)
     scanf("%i", &end_population_size);
   }
   while (end_population_size < start_population_size);
+
+  // Initialize growth_rate
+  growth_rate = (float) start_population_size;
 }
 
