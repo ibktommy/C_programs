@@ -27,5 +27,17 @@ int main(void)
 
   // Initialize growth_rate
   growth_rate = (float) start_population_size;
+
+  // 'for' loop to run main program logic
+  for (float i = growth_rate; i < end_population_size; i += added_population)
+  {
+    birth_population = floor(growth_rate / 3);
+    death_population = floor(growth_rate / 4); 
+
+    added_population = floor(birth_population - death_population);
+
+    growth_rate = growth_rate + added_population;
+    years++;
+  }
 }
 
