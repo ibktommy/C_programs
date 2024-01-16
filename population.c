@@ -1,4 +1,4 @@
-// Program to determine how long(years) it takes a population to reach a given population size in regards to newly-born and newly-dead figures.
+// Program to determine how long(years) it takes a population to reach a given population size in regards to newly-born and newly-dead persons per year.
 
 #include <stdio.h>
 #include <math.h>
