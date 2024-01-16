@@ -39,5 +39,11 @@ int main(void)
     growth_rate = growth_rate + added_population;
     years++;
   }
+
+  printf("Start Population Size: %i \n", start_population_size);
+  printf("End Population Size: %i \n", end_population_size);
+  printf("Years taken: %i", years);
+
+  return 0;
 }
 
